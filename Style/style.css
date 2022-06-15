@@ -1,0 +1,19 @@
+:root {
+    --dark-shade: #247881;
+    --normal-shade: #30AADD;
+    --light-shade: #00FFC6;
+    --light-orange: #fcd703;
+    --dark-gray: #403f39;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 4vw;
+    background-color: var(--light-orange);
+    color: var(--dark-gray);
+}
