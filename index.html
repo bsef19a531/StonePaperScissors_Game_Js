@@ -45,13 +45,13 @@
                 <div class="col-sm-6 main-card-col">
                     <div class="main-card-header">Player</div>
                     <div class="main-card-img-cont">
-                        <img src="Images/paper.png" alt="player_selected_pic" class="main-card-img">
+                        <img src="Images/stone.png" alt="player_selected_pic" class="main-card-img" id="player-img">
                     </div>
                 </div>
                 <div class="col-sm-6 main-card-col">
                     <div class="main-card-header">Computer</div>
                     <div class="main-card-img-cont">
-                        <img src="Images/scissor.png" alt="computer_selected_pic" class="main-card-img">
+                        <img src="Images/stone.png" alt="computer_selected_pic" class="main-card-img" id="computer-img">
                     </div>
                 </div>
             </div>
@@ -65,13 +65,13 @@
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <span class="selected-img-button">
-                    <img src="Images/stone.png" alt="stone-pic">
+                    <img src="Images/stone.png" alt="stone-pic" onclick="changeImage(0,0), computerChoice()">
                 </span>
                 <span class="selected-img-button">
-                    <img src="Images/paper.png" alt="paper-pic">
+                    <img src="Images/paper.png" alt="paper-pic" onclick="changeImage(0,1), computerChoice()">
                 </span>
                 <span class="selected-img-button">
-                    <img src="Images/scissor.png" alt="scissors-pic">
+                    <img src="Images/scissor.png" alt="scissors-pic" onclick="changeImage(0,2), computerChoice()">
                 </span>
             </div>
 

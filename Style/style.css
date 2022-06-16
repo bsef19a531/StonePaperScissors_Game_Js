@@ -79,4 +79,5 @@ header h1 {
 
 .selected-img-button img:hover {
     box-shadow: 3px 3px 3px 3px var(--dark-gray);
+    cursor: pointer;
 }
