@@ -15,6 +15,10 @@
     font-family: 'Righteous', cursive;
 }
 
+body {
+    background-color: var(--light-orange);
+}
+
 /* Header Style */
 
 header {
@@ -60,7 +64,8 @@ header h1 {
 
 #selection-tab-heading {
     text-align: center;
-    margin: 5px;
+    padding: 5px;
+    margin: 0px;
     background-color: white;
 }
 
