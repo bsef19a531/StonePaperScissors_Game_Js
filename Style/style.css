@@ -1,3 +1,4 @@
+/* Color Declaration */
 :root {
     --dark-shade: #247881;
     --normal-shade: #30AADD;
@@ -6,12 +7,15 @@
     --dark-gray: #403f39;
 }
 
+/* Properties Applied to all */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Righteous', cursive;
 }
+
+/* Header Style */
 
 header {
     text-align: center;
@@ -26,6 +30,8 @@ header h1 {
     margin: 0px;
 }
 
+
+/* Main Card Style */
 .main-card-col {
     padding: 0px;
     text-align: center;
@@ -49,4 +55,28 @@ header h1 {
     border: 2px solid var(--light-orange);
 }
 
-.main-card-img {}
+
+/* Selection tab Style */
+
+#selection-tab-heading {
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+}
+
+.selected-img-button,
+.selection-tab {
+    background: var(--light-orange);
+}
+
+.selected-img-button img {
+    background-color: white;
+    display: inline;
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.selected-img-button img:hover {
+    box-shadow: 3px 3px 3px 3px var(--dark-gray);
+}
