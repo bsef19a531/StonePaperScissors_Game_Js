@@ -9,11 +9,18 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 header {
     text-align: center;
-    font-size: 4vw;
     background-color: var(--light-orange);
     color: var(--dark-gray);
+    font-family: 'Righteous', cursive;
+}
+
+header h1 {
+    font-size: 4vw;
+    padding: 5px;
+    margin: 0px;
 }
