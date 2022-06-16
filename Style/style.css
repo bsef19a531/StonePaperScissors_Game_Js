@@ -40,7 +40,7 @@ header h1 {
 .main-card {
     background-color: var(--dark-gray);
     font-size: 35px;
-    padding: 0px;
+    /* padding: 0px; */
     /* font-family: 'Righteous', cursive; */
 }
 
@@ -80,4 +80,8 @@ header h1 {
 .selected-img-button img:hover {
     box-shadow: 3px 3px 3px 3px var(--dark-gray);
     cursor: pointer;
+}
+
+.empty-col {
+    padding: 0px;
 }
